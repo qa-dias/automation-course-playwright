@@ -56,7 +56,7 @@ export default defineConfig({
     // Executa navegador visível
     // false = navegador aberto
     // true = headless
-    headless: false
+    headless: true
 
   },
 
