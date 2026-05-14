@@ -45,6 +45,9 @@ jobs:
         run: |
           cd apps/api
           yarn dev &
+
+      - name: Instalar http-server
+        run: npm install -g http-server
       
       - name: Subir Frontend
         run: |
