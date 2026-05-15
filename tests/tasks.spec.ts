@@ -1,8 +1,14 @@
 import { expect, test } from '@playwright/test'
-import { TaskModel } from './fixtures/task.model'
-import { deleteTaskByHelper, postTask } from './support/helpers'
-import { TasksPage } from './support/pages/tasks'
+import { TasksPage } from './support/pages/tasks/index.js'
+import { TaskModel } from './fixtures/task.model.js'
+
+
+//import { TaskModel } from './fixtures/task.model'
+//import { deleteTaskByHelper, postTask } from './support/helpers'
+//import { TasksPage } from './support/pages/tasks'
+
 import data from './fixtures/tasks.json'
+import { deleteTaskByHelper, postTask } from './support/helpers.js'
 
 let tasksPage: TasksPage
 

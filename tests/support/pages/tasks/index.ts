@@ -1,6 +1,7 @@
 import { Page, expect, Locator } from '@playwright/test'
+import { TaskModel } from '../../../fixtures/task.model.js'
 
-import { TaskModel } from '../../../fixtures/task.model'
+//import { TaskModel } from '../../../fixtures/task.model'
 
 export class TasksPage {
 

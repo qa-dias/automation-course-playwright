@@ -1,6 +1,6 @@
 import {expect, APIRequestContext} from '@playwright/test'
+import { TaskModel } from '../fixtures/task.model.js'
 
-import { TaskModel } from '../fixtures/task.model'
 
 require('dotenv').config()
 

@@ -1,0 +1,39 @@
+// {
+//   "compilerOptions": {
+//     "target": "ESNext",
+//     "module": "NodeNext",
+//     "moduleResolution": "NodeNext",
+//     "esModuleInterop": true,
+//     "strict": true,
+//     "types": ["node", "@playwright/test"]
+//   }
+// }
+
+// {
+//   "compilerOptions": {
+//     "target": "ESNext",
+//     "module": "NodeNext",
+//     "moduleResolution": "NodeNext",
+//     "resolveJsonModule": true,
+//     "esModuleInterop": true,
+//     "strict": true,
+//     "verbatimModuleSyntax": false,
+//     "types": ["node", "@playwright/test"]
+//   }
+// }
+
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "verbatimModuleSyntax": false,
+
+    "declaration": false,
+    "sourceMap": false,
+    "outDir": "./dist"
+  }
+}
